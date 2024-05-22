@@ -7,7 +7,7 @@
 
 .header {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     background-color: black;
 }
 
@@ -23,7 +23,9 @@
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     color: white;
+    display: flex; /* or inline-flex */
 }
+
 
 .main__div__paragrafo {
     font-family: "Montserrat", sans-serif;
