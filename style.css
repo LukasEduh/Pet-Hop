@@ -6,16 +6,32 @@
 }
 
 .header {
-    background-color: black;
-    border-block-end-style: solid;
-    border-color: rgb(98, 95, 95);
+    background-color: #FCF1E0;
 }
 
 .header__icones {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
     margin: 0 100px 0 0;
+}
+
+.Lucas__bananao {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.Lucas__bananao_text {
+    text-decoration: none;
+    color: #32b4eb;
+    font-family: "Montserrat", sans-serif;
+    font-weight:  700;
+    font-size: 25px;
+    margin: 0 30px;
+}
+
+.Lucas__bananao_text:hover {
+    color: rgb(102, 87, 87);
 }
 
 .header__imagem {
@@ -36,13 +52,15 @@
 }
 
 .main {
-    background-color: black;
+    background-color: #FCF1E0;
 }
 
 .main__div__titulo {
+    display: flex;
+    justify-content: center;
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
-    color: white;
+    color: rgb(29, 26, 26);
     display: flex; /* or inline-flex */
 }
 
