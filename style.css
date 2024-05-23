@@ -6,13 +6,33 @@
 }
 
 .header {
-    display: flex;
-    justify-content: space-around;
     background-color: black;
+    border-block-end-style: solid;
+    border-color: rgb(98, 95, 95);
+}
+
+.header__icones {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 100px 0 0;
 }
 
 .header__imagem {
-    width: 200PX;
+    width: 150PX;
+}
+
+.header__icones__texts {
+    display: flex;
+    gap: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.header__icones__texts__text {
+    color: white;
+    text-decoration: none;
 }
 
 .main {
