@@ -6,7 +6,7 @@
 }
 
 .header {
-    background-color: #FCF1E0;
+    background-color: #05f3f7;
 }
 
 .header__icones {
@@ -15,23 +15,23 @@
     margin: 0 100px 0 0;
 }
 
-.Lucas__bananao {
+.botao__aperta {
     display: flex;
     justify-content: flex-start;
-    gap: 10px;
+    gap: 90px;
 }
 
-.Lucas__bananao_text {
+.botao__aperta_text {
     text-decoration: none;
-    color: #32b4eb;
+    color: #090909;
     font-family: "Montserrat", sans-serif;
-    font-weight:  700;
-    font-size: 25px;
-    margin: 0 30px;
+    font-weight:  600;
+    font-size: 30px;
+    margin: 0 50px;
 }
 
-.Lucas__bananao_text:hover {
-    color: rgb(102, 87, 87);
+.botao__luz_text:hover {
+    color: rgb(12, 216, 300);
 }
 
 .header__imagem {
@@ -52,7 +52,7 @@
 }
 
 .main {
-    background-color: #FCF1E0;
+    background-color: #06f7f7;
 }
 
 .main__div__titulo {
@@ -60,7 +60,7 @@
     justify-content: center;
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
-    color: rgb(29, 26, 26);
+    color: rgb(12, 12, 12);
     display: flex; /* or inline-flex */
 }
 
@@ -68,6 +68,6 @@
 .main__div__paragrafo {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
-    color: white;
+    color: rgb(4, 4, 4);
     width: 500px;
 }
